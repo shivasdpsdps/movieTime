@@ -1,0 +1,137 @@
+[
+    {
+        "movieId": 1,
+        "movieName": "The Shape of Water",
+        "language": "English",
+        "type": "3D",
+        "rating": 3.5,
+        "location": "Pune",
+        "movieImg": "assets/images/movies/shapeOfWater.jpg"
+    },
+    {
+        "movieId": 2,
+        "movieName": "Pari",
+        "language": "Hindi",
+        "type": "2D",
+        "rating": 3,
+        "location": "Pune",
+        "movieImg": "assets/images/movies/pari.jpg"
+    },
+    {
+        "movieId": 3,
+        "movieName": "Sonu ke Titu ki Sweety",
+        "language": "Hindi",
+        "type": "2D",
+        "rating": 4.5,
+        "location": "Chandigarh",
+        "movieImg": "assets/images/movies/sonuKeTituKiSweety.jpg"
+    },
+    {
+        "movieId": 4,
+        "movieName": "Black Panther",
+        "language": "English",
+        "type": "3D",
+        "rating": 4,
+        "location": "Chandigarh",
+        "movieImg": "assets/images/movies/blackPanther.jpg"
+    },
+    {
+        "movieId": 5,
+        "movieName": "Aiyaary",
+        "language": "Hindi",
+        "type": "2D",
+        "rating": 3,
+        "location": "Delhi",
+        "movieImg": "assets/images/movies/aiyaary.jpg"
+    },
+    {
+        "movieId": 6,
+        "movieName": "Murder on the Orient Express",
+        "language": "English",
+        "type": "3D",
+        "rating": 3.5,
+        "location": "Chandigarh",
+        "movieImg": "assets/images/movies/murderOnTheOrientExpress.jpg"
+    },
+    {
+        "movieId": 7,
+        "movieName": "Laung Laachi",
+        "language": "Punjabi",
+        "type": "2D",
+        "rating": 3.5,
+        "location": "Chandigarh",
+        "movieImg": "assets/images/movies/laungLaachi.jpg"
+    },
+    {
+        "movieId": 8,
+        "movieName": "Chamak",
+        "language": "Kannada",
+        "type": "2D",
+        "rating": 3,
+        "location": "Bengaluru",
+        "movieImg": "assets/images/movies/chamak.jpg"
+    },
+    {
+        "movieId": 9,
+        "movieName": "Annabelle",
+        "language": "English",
+        "type": "3D",
+        "rating": 4,
+        "location": "Chandigarh",
+        "movieImg": "assets/images/movies/annabelle.jpg"
+    },
+    {
+        "movieId": 10,
+        "movieName": "Kirik Party",
+        "language": "Kannada",
+        "type": "2D",
+        "rating": 2.5,
+        "location": "Bengaluru",
+        "movieImg": "assets/images/movies/kirikParty.jpg"
+    },
+    {
+        "movieId": 11,
+        "movieName": "Coco",
+        "language": "English",
+        "type": "3D",
+        "rating": 4.5,
+        "location": "Chandigarh",
+        "movieImg": "assets/images/movies/coco.jpg"
+    },
+    {
+        "movieId": 12,
+        "movieName": "Padman",
+        "language": "Hindi",
+        "type": "2D",
+        "rating": 4,
+        "location": "Pune",
+        "movieImg": "assets/images/movies/padman.jpg"
+    },
+    {
+        "movieId": 13,
+        "movieName": "Tiger Zinda Hai",
+        "language": "Hindi",
+        "type": "2D",
+        "rating": 4,
+        "location": "Delhi",
+        "movieImg": "assets/images/movies/tigerZindaHai.jpg"
+    },
+    {
+        "movieId": 14,
+        "movieName": "Prema Baraha",
+        "language": "Kannada",
+        "type": "2D",
+        "rating": 3.5,
+        "location": "Bengaluru",
+        "movieImg": "assets/images/movies/premaBaraha.jpg"
+    },
+    {
+        "movieId": 15,
+        "movieName": "Padmavati",
+        "language": "Hindi",
+        "type": "3D",
+        "rating": 4.5,
+        "location": "Chandigarh",
+        "movieImg": "assets/images/movies/padmavati.jpg"
+    }
+]

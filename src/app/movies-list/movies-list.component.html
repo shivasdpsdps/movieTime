@@ -1,0 +1,12 @@
+<!--<div style="height:500px;width:500px;position:relative"><h1>hello checkout the movies</h1></div>-->
+<div class="moviesListContainer row">
+<span class="pamphlet" *ngFor="let movie of movies">
+    <img [src]="movie.movieImg" class="moviesImage">
+    <div class="movieName">{{movie.movieName}}</div>
+    <div class="language">{{movie.language}}</div>
+    <div class="typeBadge">{{movie.type}}</div>
+    <app-rating [rate]="movie.rating"></app-rating>
+    <button type="button" class="btn bookButton btn-primary" (click)="goToDetail(movie)">Book</button>
+    <div *ngIf="movie.rating>3" class="recommendedDiv">Recommended</div>
+</span>
+</div>

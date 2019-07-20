@@ -1,0 +1,79 @@
+        body{
+                background-color: #E9E9E9;
+        }
+.moviesListContainer{
+    background-color: #E9E9E9;
+    padding:20px;
+    z-index: 1;
+    top:67px;
+    position: relative;
+    min-height: 100%;
+        width: 1395px
+}
+.pamphlet{
+    transition: 0.3s;
+       width: 267px;
+    margin-left: 52px;
+    margin-bottom: 70px;
+    padding: 20px 30px;
+    border: 1px solid #BFBFBF;
+    background-color: white;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    overflow: hidden;
+    position: relative;
+}
+.pamphlet:hover {
+     box-shadow: -15px 20px 5px #aaaaaa;
+}
+.moviesImage{
+    height: 263px;
+    width: 202px;
+}
+.movieName{
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 5px;
+}
+.language{
+    text-align: center;
+    font-size: 12px;
+}
+.typeBadge{
+    color: grey;
+    background-color: white;
+    font-size: 13px;
+    border: grey 1px solid;
+    text-align: center;
+    width: 31px;
+    border-radius: 4px;
+    font-weight: 400;
+    margin-left: 87px;
+    margin-top: 3px;
+}
+.bookButton{
+    background-color: #b30059;
+    color: #fff;
+    border-color: #b30059;
+    padding: 5px 11px;
+    font-size: 15px;
+    margin-left:73px; 
+    margin-top: 14px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.bookButton:hover{
+    background-color: #99004d;
+}
+.recommendedDiv{
+    color:white;
+    background-color: green;
+    transform: rotate(-40deg); 
+    text-align: center;
+    margin-left: 147px;
+    position: absolute;
+    margin-top: -5px;
+    width: 107px;
+    top: 403px;
+    font-size: 12px;
+}

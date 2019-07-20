@@ -1,0 +1,23 @@
+.welcomeDiv{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 12px;
+    text-align: right;
+    font-family: 'times new roman';
+}
+.logoutButton{
+    background-color: #c6538c;
+    border-radius: 5px;
+    border: none;
+    font-size: 21px;
+    font-weight: normal;
+    padding: 4px;
+    width: 79px;
+}
+.logoutButton:active{
+    background-color: #bf4080;
+}
+.logoutButton:focus {outline:0;}
+.hideLogout{
+    visibility: hidden;
+}

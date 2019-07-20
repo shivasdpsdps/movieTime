@@ -1,0 +1,11 @@
+<div class="ratingDiv">
+    <span *appRepeat=firstNumber>
+    <img [src]="starImg" style="height:16px">
+</span>
+<span *ngIf="halfStarFlag">
+    <img [src]="halfStarImg" style="height:16px">
+</span>
+<span *appRepeat=emptyCount>
+    <img [src]="emptyStarImg" style="height:16px">
+</span>
+</div>

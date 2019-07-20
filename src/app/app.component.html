@@ -1,0 +1,27 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div class="row outerContainer">
+<div class="header">
+<header>
+    <div class="row">
+        <div class="col-sm-7">{{title}}</div>
+        <div class="col-sm-2 welcomeDiv" *ngIf="isLoggedIn">
+            Welcome {{username|titlecase}}
+        </div>
+        <div class="col-sm-2" [ngClass]="{'hideLogout':!isLoggedIn}"><button class="logoutButton" (click)="logoutClick()">logout</button></div>
+       
+        <div class="col-sm-1">
+            <app-location></app-location>
+        </div>
+    </div>
+</header>
+</div>
+<!--<div class="col-sm-12">
+    <app-login (onRegister)="onRegister($event)"></app-login>
+</div>-->
+    <router-outlet></router-outlet>
+
+<div class="col-sm-12">
+    <footer>{{footerData}}</footer>
+</div>
+
+</div>

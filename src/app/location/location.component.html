@@ -1,0 +1,18 @@
+<!--<div class="dropdown">
+  <img src="../assets/images/gps.png" height='40px' width='40px' (click)="iconClicked=true">
+  <div dropdown dropdown-append-to-body class="dropdownContent" [ngClass]="{'hideDropdown':!locationClickedOutside}">
+    <a class="locationField">Benguluru</a>
+    <a class="locationField">Chandigarh</a>
+    <a class="locationField">Delhi</a>
+    <a class="locationField">Pune</a>
+  </div>
+</div>-->
+
+  <div class="dropdown">
+        <img src="../assets/images/gps.png" style="color:blue;cursor:pointer" class="dropdown-toggle" id="menu1" data-toggle="dropdown" height='40px' width='40px'>
+    <ul class="dropdown-menu"  role="menu" aria-labelledby="menu1">
+      <li class="locationRows" role="presentation" *ngFor="let l of locationArray">
+        <a role="menuitem" tabindex="-1" (click)="locationClicked(l)">{{l}}</a>
+      </li>   
+    </ul>
+  </div>
